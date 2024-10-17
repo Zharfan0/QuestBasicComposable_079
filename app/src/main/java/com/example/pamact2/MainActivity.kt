@@ -38,3 +38,8 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Composable
+fun LoginScreen(){
+
+}
