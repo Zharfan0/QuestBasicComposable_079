@@ -84,5 +84,10 @@ fun LoginScreen() {
             )
         )
 
+        Text(
+            text = "Muhammad Zharfan",
+            )
+
+
     }
 }
