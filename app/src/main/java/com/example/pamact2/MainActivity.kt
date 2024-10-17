@@ -114,3 +114,11 @@ fun LoginScreen() {
         )
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun PreviewLoginScreen() {
+    PAMact2Theme {
+        LoginScreen()
+    }
+}
