@@ -45,5 +45,11 @@ fun LoginScreen() {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top
+    ) {
+        // Logo Universitas
+        Image(
+            painter = painterResource(id = R.drawable.universitaslogo),
+            contentDescription = "Logo Universitas",
+        )
+    }
 }
-
