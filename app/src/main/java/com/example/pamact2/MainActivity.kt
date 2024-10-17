@@ -101,5 +101,16 @@ fun LoginScreen() {
                 fontWeight = FontWeight.Bold
             )
         )
+
+        Spacer(modifier = Modifier.height(24.dp))
+
+        // Gambar profil mahasiswa
+        Image(
+            painter = painterResource(id = R.drawable.profileimage),
+            contentDescription = "Foto Profil",
+            modifier = Modifier
+                .size(200.dp)
+                .padding(16.dp)
+        )
     }
 }
