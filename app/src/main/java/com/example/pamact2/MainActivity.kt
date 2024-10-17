@@ -51,5 +51,7 @@ fun LoginScreen() {
             painter = painterResource(id = R.drawable.universitaslogo),
             contentDescription = "Logo Universitas",
         )
-    }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
 }
