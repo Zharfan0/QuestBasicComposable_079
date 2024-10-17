@@ -86,8 +86,12 @@ fun LoginScreen() {
 
         Text(
             text = "Muhammad Zharfan",
+            style = TextStyle(
+                fontSize = 24.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold
             )
-
+        )
 
     }
 }
