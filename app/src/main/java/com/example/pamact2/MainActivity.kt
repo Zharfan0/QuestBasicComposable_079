@@ -94,13 +94,12 @@ fun LoginScreen() {
         )
 
         Text(
-            text = "20220140079",
+            text = "20210140141",
             style = TextStyle(
                 fontSize = 24.sp,
                 color = Color.Black,
                 fontWeight = FontWeight.Bold
             )
         )
-
     }
 }
